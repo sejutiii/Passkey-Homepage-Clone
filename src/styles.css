@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button
+{
+    @apply hover:bg-btn1 hover:text-white text-sm px-3 py-2 rounded-md;
+}
+
+.blue-button
+{
+    @apply bg-btn2 hover:bg-btn2h hover:text-white px-3 py-2 rounded-md shadow-md cursor-pointer;
+}
+
+.standard-body
+{
+    @apply text-lg text-gray-400 py-4;
+}
+
+.start
+{
+    @apply bg-btn2 hover:bg-btn2h hover:text-white p-3 rounded-md shadow-md cursor-pointer;
+}
